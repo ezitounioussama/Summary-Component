@@ -1,0 +1,52 @@
+/* Import font Hanken+Grotesk */
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 18px;
+}
+
+#sideCard {
+  background-image: linear-gradient(
+    to top,
+    #2724ff,
+    #4540ff,
+    #5b57ff,
+    #6f6cff,
+    #8280ff
+  );
+}
+
+#Circle {
+  background-image: linear-gradient(
+    to bottom,
+    #4a24cf,
+    #4c2edb,
+    #4e38e7,
+    #4f42f3,
+    #504bff
+  );
+}
+
+button:hover {
+  background-image: linear-gradient(
+    to bottom,
+    #4a24cf,
+    #4c2edb,
+    #4e38e7,
+    #4f42f3,
+    #504bff
+  );
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
